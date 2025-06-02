@@ -27,6 +27,7 @@
 | LGRAddon_Rank_{RankType}_{Rank}_Value       | float | 获取指定公会排行榜的指定类型的值 | RankType: 排行类型, Rank: 排名        | LGRAddon_Money_1_Value：获取公会银行排名第一的公会银行余额                  |
 | LGRAddon_Player_{RankType}_Rank             | int   | 获取此玩家所在公会某项排名    | RankType: 排行类型                  | LGAddon_Player_Money_Rank：获取此玩家所在公会的公会银行余额排名              |
 | LGRAddon_Other_{PlayerName}_{RankType}_Rank | int   | 获取指定玩家所在公会的某项排名  | RankType: 排行类型, PlayerName: 玩家名 | LGRAddon_Other_moran0710_Money_Rank：获取moran0710所在公会银行余额排名 |
+| LGRAddon_ServerTotalMoney                   | float | 获取全服公会的公会银行余额总和  |                                 | LGRAddon_ServerTotal_Money：获取全服公会银行余额总和                   |
 
 ## 变量不够用？
 

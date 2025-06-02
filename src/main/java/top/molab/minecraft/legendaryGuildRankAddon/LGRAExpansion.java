@@ -7,6 +7,7 @@ import org.jetbrains.annotations.NotNull;
 import top.molab.minecraft.legendaryGuildRankAddon.papiHolders.OtherPlayerHolder;
 import top.molab.minecraft.legendaryGuildRankAddon.papiHolders.PlayerHolder;
 import top.molab.minecraft.legendaryGuildRankAddon.papiHolders.RankHolder;
+import top.molab.minecraft.legendaryGuildRankAddon.papiHolders.ServerTotalMoneyHolder;
 
 import java.util.ArrayList;
 
@@ -27,6 +28,7 @@ public class LGRAExpansion extends PlaceholderExpansion {
         registerHolder(new PlayerHolder());
         registerHolder(new RankHolder());
         registerHolder(new OtherPlayerHolder());
+        registerHolder(new ServerTotalMoneyHolder());
     }
 
     @Override

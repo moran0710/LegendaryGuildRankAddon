@@ -21,6 +21,17 @@ public class GuildUtils {
         return guilds;
     }
 
+    public static float getServerTotalMoney() {
+        List<Guild> guilds = getGuilds();
+        float sum = 0f;
+        for  (Guild guild : guilds){
+            sum+=guild.getMoney();
+        }
+        return sum;
+    }
+
+
+
 
     public static List<Guild> sortGuildsByMoney(){
         return sortGuilds(Comparator.comparingDouble(Guild::getMoney).reversed());
