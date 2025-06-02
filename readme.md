@@ -1,6 +1,6 @@
 # LegendaryGuildRankAddon
 
-这是一个非常建议的PlaceHolderAPI拓展，用于拓展[LegendaryGuild](https://www.minebbs.com/threads/legendaryguild.24223/)的Papi变量
+这是一个非常简单的PlaceHolderAPI拓展，用于拓展[LegendaryGuild](https://www.minebbs.com/threads/legendaryguild.24223/)的Papi变量
 
 写这玩意的原因是，LegendaryGuild的PAPI变量有点不够我用，我又不太想动本体。
 
